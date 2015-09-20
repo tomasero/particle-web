@@ -1,0 +1,78 @@
+.move-subtitle {
+    animation: move-subtitle 1s ease-in-out forwards;
+    -webkit-animation: move-subtitle 1s ease-in-out forwards;
+    -moz-animation: move-subtitle 1s ease-in-out forwards;  
+}
+@keyframes move-subtitle {
+   0% {
+       
+   } 75% {
+       transform: translate(160px,0px);
+   } 100% {
+       transform: translate(160px,-24px);
+   }
+}
+
+.float1 {
+    animation: float1 4s linear forwards;
+    -webkit-animation: float1 4s linear forwards;
+    -moz-animation: float1 4s linear forwards;  
+}
+
+@keyframes float1 {
+    0% {
+        transform: translate(0px, 0px);
+    } 50% {
+        transform: translate(0px, 5px);
+    } 100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.float2 {
+    animation: float2 4s ease-in-out infinite;
+    -webkit-animation: float2 4s ease-in-out infinite;
+    -moz-animation: float2 4s ease-in-out infinite;  
+}
+
+@keyframes float2 {
+    0% {
+        transform: translate(0px, 0px);
+    } 50% {
+        transform: translate(0px, 10px);
+    } 100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.float3 {
+    animation: float3 3s ease-in-out infinite;
+    -webkit-animation: float3 3s ease-in-out infinite;
+    -moz-animation: float2 3s ease-in-out infinite;  
+}
+
+@keyframes float3 {
+    0% {
+        transform: translate(0px, 0px);
+    } 50% {
+        transform: translate(0px, -15px);
+    } 100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.float4 {
+    animation: float4 3s ease-in-out infinite;
+    -webkit-animation: float4 3s ease-in-out infinite;
+    -moz-animation: float4 3s ease-in-out infinite;  
+}
+
+@keyframes float4 {
+    0% {
+        transform: translate(0px, 0px);
+    } 50% {
+        transform: translate(0px, -20px);
+    } 100% {
+        transform: translate(0px, 0px);
+    }
+}
